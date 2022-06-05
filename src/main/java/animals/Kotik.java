@@ -27,65 +27,50 @@ public class Kotik {
     // Methods with animal behavior
     boolean play() {
         if (this.satiety > 0) {
-            System.out.println("Котик играет");
             this.satiety--;
 
             return true;
         } else {
-            System.out.println("Покорми меня ＼(=^‥^)/’`");
-
             return false;
         }
     }
 
     boolean sleep() {
         if (this.satiety > 0) {
-            System.out.println("Котик спит");
             this.satiety--;
 
             return true;
         } else {
-            System.out.println("Покорми меня ＼(=^‥^)/’`");
-
             return false;
         }
     }
 
     boolean wash() {
         if (this.satiety > 0) {
-            System.out.println("Котик моется");
             this.satiety--;
 
             return true;
         } else {
-            System.out.println("Покорми меня ＼(=^‥^)/’`");
-
             return false;
         }
     }
 
     boolean walk() {
         if (this.satiety > 0) {
-            System.out.println("Котик гуляет");
             this.satiety--;
 
             return true;
         } else {
-            System.out.println("Покорми меня ＼(=^‥^)/’`");
-
             return false;
         }
     }
 
     boolean hunt() {
         if (this.satiety > 0) {
-            System.out.println("Котик охотится");
             this.satiety--;
 
             return true;
         } else {
-            System.out.println("Покорми меня ＼(=^‥^)/’`");
-
             return false;
         }
     }

@@ -16,16 +16,12 @@ public class Application {
             System.out.println(day);
         }
 
-        System.out.println("Котика зовут " + gav.getName());
-        System.out.println("Котик весит " + gav.getWeight() + " килограмм");
+        System.out.println(gav.getName());
+        System.out.println(gav.getWeight());
 
-        if (compareVoice(gav, polt)) {
-            System.out.println("Котики разговаривают одинаково");
-        } else {
-            System.out.println("Котики разговаривают по-разному");
-        }
+        System.out.println(compareVoice(gav, polt));
 
-        System.out.println("Общее количество котиков = " + polt.getCount());
+        System.out.println(polt.getCount());
     }
 
     static boolean compareVoice (Kotik kotik1, Kotik kotik2) {
